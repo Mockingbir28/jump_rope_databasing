@@ -4,7 +4,8 @@ __pycache__/
 *$py.class
 
 # Databases
-/src/**/*.db
+src/jumpropedatabase/databasing/tutorial.db
+**/.DS_Store
 
 # C extensions
 *.so
