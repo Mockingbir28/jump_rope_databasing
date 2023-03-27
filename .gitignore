@@ -4,7 +4,7 @@ __pycache__/
 *$py.class
 
 # Databases
-**/*.db
+/src/**/*.db
 
 # C extensions
 *.so
