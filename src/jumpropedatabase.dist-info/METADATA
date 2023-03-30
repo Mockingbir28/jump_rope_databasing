@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Briefcase-Version: 0.3.13
+Name: jumpropedatabase
+Formal-Name: Jump Rope Database
+App-ID: com.example.jumpropedatabase
+Version: 0.0.1
+Home-page: https://example.com/jumpropedatabase
+Download-URL: https://example.com/jumpropedatabase
+Author: Hayden Thomas
+Author-email: haydenthomasjump@gmail.com
+Summary: Create a database for jump rope tournaments
