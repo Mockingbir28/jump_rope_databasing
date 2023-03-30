@@ -3,9 +3,9 @@ import os
 from pandas import read_sql_query
 
 
-def make_database(path:str, name:str):
+def conn_database(path:str, name:str):
     '''
-    make_database creates a database in the user defined path and name
+    conn_database creates a database in the user defined path and name
 
     Parameters
     ----------
@@ -124,7 +124,7 @@ if __name__ == "__main__":
     
     if os.path.isfile(path+"/"+file):
         os.remove(path+"/"+file)
-    con = make_database(path, file)
+    con = conn_database(path, file)
     make_table(con, "test",["title","year","score"])
     
     data = [
